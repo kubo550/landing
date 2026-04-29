@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "Jakub Kurdziel: Websites from PLN 299",
+    "titleTemplate": "%s | Jakub Kurdziel",
+    "description": "Web Developer with 5 years of experience. I design and deliver professional websites for businesses. Business landing page from PLN 299, delivered in 48 hours. SEO, analytics and integrations included.",
+    "ogTitle": "A professional website for your business. From PLN 299. Delivered in 48 hours.",
+    "ogDescription": "Landing pages, business websites, SEO, analytics and integrations. Free quote, delivery within 48 hours.",
+    "keywords": "websites, landing page, web developer, freelance developer, SEO, business website, react, nextjs, Poland"
+  },
+  "nav": {
+    "services": "Services",
+    "portfolio": "Work",
+    "process": "Process",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Currently accepting projects",
+    "titleLine1": "A professional website",
+    "titleHighlight": "for your business.",
+    "titleLine2Pre": "From",
+    "titleLine2Price": "PLN 299",
+    "titleLine2Mid": ". Delivered in",
+    "titleLine2Time": "48h",
+    "titleLine2Post": ".",
+    "subtitle": "A business landing page delivered within 48 hours of finalising requirements. SEO, analytics and integrations included. Transparent terms, no hidden costs.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "View services",
+    "stats": {
+      "yearsValue": "5+",
+      "yearsLabel": "years of experience",
+      "projectsValue": "40+",
+      "projectsLabel": "projects delivered",
+      "responseValue": "<24h",
+      "responseLabel": "response time"
+    }
+  },
+  "services": {
+    "label": "Services",
+    "title": "Scope of services",
+    "subtitle": "From a single business landing page to complete online presence management. Choose the scope tailored to your business needs.",
+    "popular": "Most popular",
+    "fromPrice": "from",
+    "currency": "PLN",
+    "individual": "custom quote",
+    "card": {
+      "tagline": "A professional website from PLN 299.",
+      "title": "Business landing page",
+      "description": "A professional landing page presenting your business. Delivered within 48 hours of finalising requirements.",
+      "price": "299",
+      "features": [
+        "Responsive mobile-first design",
+        "Contact form",
+        "Basic SEO optimisation and Google Maps integration",
+        "Hosting and domain (first year included)",
+        "Delivery within 48 hours"
+      ]
+    },
+    "seo": {
+      "title": "SEO and search visibility",
+      "description": "Technical audit, optimisation, keyword strategy and content preparation. Effective presence in Google search results.",
+      "features": [
+        "SEO audit with detailed report",
+        "Core Web Vitals optimisation",
+        "Keyword strategy",
+        "Internal linking and schema.org implementation"
+      ]
+    },
+    "analytics": {
+      "title": "Traffic analytics",
+      "description": "Implementation of GA4, Google Search Console and user behaviour analysis tools. Full visibility into your website traffic.",
+      "features": [
+        "Google Analytics 4 and GTM implementation",
+        "Goal and conversion event configuration",
+        "Heatmaps and session recordings",
+        "Periodic performance reports"
+      ]
+    },
+    "integrations": {
+      "title": "Third-party integrations",
+      "description": "Payments, booking calendars, CRM systems, mailing and AI-based solutions integrated with your website.",
+      "features": [
+        "Payment gateways (Stripe, Przelewy24)",
+        "Online bookings (Calendly, Cal.com)",
+        "CRM and email marketing (HubSpot, Mailchimp)",
+        "Chat and AI assistants"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance and development",
+      "description": "Hosting, backups, monitoring and regular updates of content and security. Continuous technical support.",
+      "features": [
+        "Hosting with 24/7 monitoring",
+        "Content and visual asset updates",
+        "Backups and security",
+        "Technical support"
+      ]
+    }
+  },
+  "portfolio": {
+    "label": "Selected work",
+    "title": "Selected projects",
+    "subtitle": "Projects shown below are the ones I can present publicly. Additional work, including projects under NDA, is shared during consultations.",
+    "viewLive": "Visit website",
+    "ndaNote": "A portion of completed projects is covered by non-disclosure agreements. The full portfolio is presented during individual conversations.",
+    "items": [
+      {
+        "title": "Komfortinstal",
+        "domain": "komfortinstal.com.pl",
+        "description": "Business website presenting the offer of a technical installation company.",
+        "tags": ["Business website", "SEO"],
+        "url": "https://komfortinstal.com.pl/",
+        "monogram": "K"
+      },
+      {
+        "title": "Moxie Daily",
+        "domain": "moxiedaily.co",
+        "description": "Content brand website with newsletter subscription and email marketing integration.",
+        "tags": ["Brand", "Newsletter"],
+        "url": "https://moxiedaily.co/",
+        "monogram": "M"
+      },
+      {
+        "title": "ReSHRD",
+        "domain": "my.reshrd.com",
+        "description": "Web application interface with a user dashboard and external integrations.",
+        "tags": ["Web app", "Dashboard"],
+        "url": "https://my.reshrd.com/",
+        "monogram": "R"
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What clients say",
+    "subtitle": "A few words from people I have had the pleasure of working with.",
+    "items": [
+      {
+        "quote": "I do not know much about all of this, yet Jakub elegantly walked me through the entire process. The website was up in 2 days, looks beautiful, and he even arranged a free domain for the first year. Highly recommended for anyone who needs a website without unnecessary stress.",
+        "name": "Anna Nowak",
+        "role": "Owner",
+        "company": "Estetica Hair Salon",
+        "initials": "AN"
+      },
+      {
+        "quote": "Incredible delivery speed. Quote within 24 hours, website ready two days after signing. Everything is fast, looks professional. Since launch I have had more enquiries than in the previous six months combined.",
+        "name": "Marek Kowalski",
+        "role": "Owner",
+        "company": "Auto-Detailing Premium",
+        "initials": "MK"
+      },
+      {
+        "quote": "Professional approach from the very first email. Explained clearly what and why, suggested solutions we would not have considered ourselves. Precise communication, deadlines met to the day. Recommended without reservation.",
+        "name": "Katarzyna Wójcik",
+        "role": "Marketing Director",
+        "company": "Studio Brand & Co.",
+        "initials": "KW"
+      }
+    ]
+  },
+  "process": {
+    "label": "How we work together",
+    "title": "Four stages of project delivery",
+    "subtitle": "A transparent process. Each stage with clearly defined scope, timeline and cost.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Initial contact",
+        "description": "You reach out via the form or by phone. A short conversation allows me to understand the scope and character of the project."
+      },
+      {
+        "number": "02",
+        "title": "Quote: 24h, free",
+        "description": "You receive a detailed quote, schedule and scope of work. No obligations."
+      },
+      {
+        "number": "03",
+        "title": "Delivery",
+        "description": "Once the quote is accepted, work begins. The business landing page is delivered within 48 hours of contract signing."
+      },
+      {
+        "number": "04",
+        "title": "Launch and support",
+        "description": "I publish the project, configure analytics and provide content editing training. Optional ongoing maintenance available."
+      }
+    ]
+  },
+  "about": {
+    "label": "About",
+    "title": "Jakub Kurdziel, Web Developer",
+    "intro": "For over five years I have been designing, delivering and maintaining websites and web applications. I work with clients of varying scale, from sole proprietors to larger business entities. I value precise communication of requirements and consistent delivery within agreed timelines.",
+    "intro2": "I recommend solutions adequate to real business needs and scale. I deliver both simple business landing pages and complex systems with multiple integrations, always within a scope that supports your specific business goals.",
+    "stackLabel": "Technologies used",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "Vercel",
+      "GA4",
+      "Stripe"
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Did not find an answer to your question? Please feel free to get in touch directly.",
+    "items": [
+      {
+        "q": "How much does a website cost?",
+        "a": "A business landing page costs PLN 299. Larger projects are quoted individually following an initial conversation. Every client receives a complete quote before work begins, with no hidden costs."
+      },
+      {
+        "q": "How long does delivery take?",
+        "a": "A business landing page is delivered within 48 hours of finalising requirements and receiving the materials (logo, copy, photographs). Larger projects typically take 1 to 4 weeks. Timelines are set realistically and consistently met."
+      },
+      {
+        "q": "Are hosting and domain included in the price?",
+        "a": "The Business landing page package includes the first year of hosting and domain. Subsequent annual maintenance costs approximately PLN 100 to 200, depending on the chosen domain. Deployment to client-owned hosting is also possible."
+      },
+      {
+        "q": "Can I edit the content myself after launch?",
+        "a": "Yes. Training on editing the key sections of the website is included as standard. Implementation of a CMS panel (for example for blog management) is delivered as part of a custom quote."
+      },
+      {
+        "q": "Do you also handle SEO optimisation?",
+        "a": "Yes. Every project includes basic SEO optimisation (meta tags, sitemap, structured data, Core Web Vitals). Advanced ranking work and content marketing are offered as separate services."
+      },
+      {
+        "q": "What technologies do you use?",
+        "a": "Next.js, React, TypeScript and Tailwind CSS. Websites are fast, well-indexed by search engines and easy to extend further. For simpler projects WordPress is also available. The technology choice always reflects the specific project requirements."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in touch",
+    "subtitle": "Quote is free of charge. I usually respond within 24 hours. No obligations.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "John Smith",
+      "email": "Email address",
+      "emailPlaceholder": "john@company.com",
+      "phone": "Phone",
+      "phoneOptional": "(optional)",
+      "phonePlaceholder": "+48 600 000 000",
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe the project scope: industry, website goal, expected delivery date…",
+      "submit": "Send enquiry",
+      "submitting": "Sending…",
+      "success": "Thank you for your message. I will respond within 24 hours.",
+      "error": "An error occurred while sending. Please contact me by email."
+    },
+    "info": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "location": "Location",
+      "locationValue": "Poland, remote collaboration"
+    }
+  },
+  "footer": {
+    "tagline": "Websites that support your business goals.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved."
+  },
+  "theme": {
+    "toggleLabel": "Change theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "lang": {
+    "switchLabel": "Change language",
+    "pl": "Polski",
+    "en": "English"
+  }
+}

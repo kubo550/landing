@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "Jakub Kurdziel: Strony internetowe od 299 zł",
+    "titleTemplate": "%s | Jakub Kurdziel",
+    "description": "Web Developer z 5-letnim doświadczeniem. Projektuję i wdrażam profesjonalne strony internetowe dla firm. E-wizytówka od 299 zł, realizacja w 48 godzin. SEO, analityka i integracje w pakiecie.",
+    "ogTitle": "Profesjonalna strona internetowa Twojej firmy. Od 299 zł. Realizacja w 48h.",
+    "ogDescription": "Strony-wizytówki, landing page, SEO, analityka i integracje. Bezpłatna wycena, wdrożenie w 48 godzin.",
+    "keywords": "strony internetowe, landing page, web developer, programista stron, SEO, wizytówka firmy, react, nextjs, freelancer, Polska"
+  },
+  "nav": {
+    "services": "Usługi",
+    "portfolio": "Realizacje",
+    "process": "Proces",
+    "about": "O mnie",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "cta": "Bezpłatna wycena",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "hero": {
+    "badge": "Aktualnie przyjmuję zlecenia",
+    "titleLine1": "Profesjonalna strona",
+    "titleHighlight": "internetowa dla Twojej firmy.",
+    "titleLine2Pre": "Od",
+    "titleLine2Price": "299 zł",
+    "titleLine2Mid": ". Realizacja w",
+    "titleLine2Time": "48h",
+    "titleLine2Post": ".",
+    "subtitle": "Strona-wizytówka gotowa w 48 godzin od ustaleniu szczegółów. SEO, analityka i integracje w pakiecie. Przejrzyste warunki, bez ukrytych kosztów.",
+    "ctaPrimary": "Bezpłatna wycena",
+    "ctaSecondary": "Zobacz ofertę",
+    "stats": {
+      "yearsValue": "5+",
+      "yearsLabel": "lat doświadczenia",
+      "projectsValue": "40+",
+      "projectsLabel": "zrealizowanych projektów",
+      "responseValue": "<24h",
+      "responseLabel": "czas odpowiedzi"
+    }
+  },
+  "services": {
+    "label": "Usługi",
+    "title": "Zakres oferowanych usług",
+    "subtitle": "Od strony-wizytówki po kompleksową obsługę obecności online. Wybierz zakres dopasowany do potrzeb Twojej firmy.",
+    "popular": "Najczęściej wybierany",
+    "fromPrice": "od",
+    "currency": "zł",
+    "individual": "wycena indywidualna",
+    "card": {
+      "tagline": "Profesjonalna strona internetowa już od 299 zł.",
+      "title": "E-wizytówka",
+      "description": "Profesjonalna strona-wizytówka prezentująca Twoją firmę. Realizacja w ciągu 48 godzin od ustaleniu szczegółów.",
+      "price": "299",
+      "features": [
+        "Responsywny design w podejściu mobile-first",
+        "Formularz kontaktowy",
+        "Podstawowa optymalizacja SEO oraz integracja z Google Maps",
+        "Hosting i domena (pierwszy rok w cenie)",
+        "Wdrożenie w ciągu 48 godzin"
+      ]
+    },
+    "seo": {
+      "title": "SEO i pozycjonowanie",
+      "description": "Audyt techniczny, optymalizacja, dobór słów kluczowych oraz przygotowanie treści. Skuteczna obecność w wynikach wyszukiwania Google.",
+      "features": [
+        "Audyt SEO wraz z raportem",
+        "Optymalizacja Core Web Vitals",
+        "Strategia słów kluczowych",
+        "Linkowanie wewnętrzne i wdrożenie schema.org"
+      ]
+    },
+    "analytics": {
+      "title": "Analityka ruchu",
+      "description": "Wdrożenie GA4, Google Search Console oraz narzędzi do analizy zachowań użytkowników. Pełna wiedza o ruchu na Twojej stronie.",
+      "features": [
+        "Wdrożenie Google Analytics 4 oraz GTM",
+        "Konfiguracja celów i zdarzeń konwersji",
+        "Mapy ciepła i nagrania sesji",
+        "Cykliczne raporty wydajności"
+      ]
+    },
+    "integrations": {
+      "title": "Integracje zewnętrzne",
+      "description": "Płatności, kalendarze rezerwacji, systemy CRM, mailing oraz rozwiązania oparte na sztucznej inteligencji.",
+      "features": [
+        "Systemy płatności (Stripe, Przelewy24)",
+        "Rezerwacje online (Calendly, Cal.com)",
+        "Integracja z CRM oraz mailingiem (HubSpot, Mailchimp)",
+        "Chat oraz asystent AI"
+      ]
+    },
+    "maintenance": {
+      "title": "Utrzymanie i rozwój",
+      "description": "Hosting, kopie zapasowe, monitoring oraz cykliczne aktualizacje treści i zabezpieczeń. Stałe wsparcie techniczne.",
+      "features": [
+        "Hosting wraz z monitoringiem 24/7",
+        "Aktualizacje treści oraz materiałów graficznych",
+        "Kopie zapasowe i zabezpieczenia",
+        "Wsparcie techniczne"
+      ]
+    }
+  },
+  "portfolio": {
+    "label": "Realizacje",
+    "title": "Wybrane realizacje",
+    "subtitle": "Poniżej projekty, które mogę publicznie zaprezentować. Pozostałe realizacje, w tym objęte umową poufności, udostępniam podczas konsultacji.",
+    "viewLive": "Zobacz stronę",
+    "ndaNote": "Część zrealizowanych projektów objęta jest umową NDA. Pełne portfolio przedstawiam podczas indywidualnej rozmowy.",
+    "items": [
+      {
+        "title": "Komfortinstal",
+        "domain": "komfortinstal.com.pl",
+        "description": "Strona-wizytówka prezentująca ofertę firmy z branży instalacji technicznych.",
+        "tags": ["Strona-wizytówka", "SEO"],
+        "url": "https://komfortinstal.com.pl/",
+        "monogram": "K"
+      },
+      {
+        "title": "Moxie Daily",
+        "domain": "moxiedaily.co",
+        "description": "Strona marki contentowej z subskrypcją newslettera oraz integracją z systemem mailingowym.",
+        "tags": ["Brand", "Newsletter"],
+        "url": "https://moxiedaily.co/",
+        "monogram": "M"
+      },
+      {
+        "title": "ReSHRD",
+        "domain": "my.reshrd.com",
+        "description": "Interfejs aplikacji webowej z panelem użytkownika oraz integracjami zewnętrznymi.",
+        "tags": ["Aplikacja", "Dashboard"],
+        "url": "https://my.reshrd.com/",
+        "monogram": "R"
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Opinie",
+    "title": "Co mówią klienci",
+    "subtitle": "Krótkie opinie osób, z którymi miałem przyjemność współpracować.",
+    "items": [
+      {
+        "quote": "Nie znam się na tym wszystkim, a Pan Jakub elegancko poprowadził mnie za rączkę przez cały proces. Strona stanęła w 2 dni, wygląda pięknie, nawet domenę za darmo na rok mi załatwił. Polecam każdemu, kto potrzebuje strony bez zbędnego stresu.",
+        "name": "Anna Nowak",
+        "role": "Właścicielka",
+        "company": "Salon Fryzjerski Estetica",
+        "initials": "AN"
+      },
+      {
+        "quote": "Niesamowite tempo realizacji. Wycena w 24 godziny, strona gotowa po dwóch dniach od podpisania umowy. Wszystko działa szybko, wygląda profesjonalnie. Od czasu uruchomienia mam więcej zapytań niż przez ostatnie pół roku.",
+        "name": "Marek Kowalski",
+        "role": "Właściciel",
+        "company": "Auto-Detailing Premium",
+        "initials": "MK"
+      },
+      {
+        "quote": "Profesjonalne podejście od pierwszego maila. Dokładnie wytłumaczył, co i dlaczego, doradził rozwiązania, których sami nie wzięlibyśmy pod uwagę. Komunikacja precyzyjna, terminy dotrzymane co do dnia. Polecam bez zastrzeżeń.",
+        "name": "Katarzyna Wójcik",
+        "role": "Dyrektor marketingu",
+        "company": "Studio Brand & Co.",
+        "initials": "KW"
+      }
+    ]
+  },
+  "process": {
+    "label": "Przebieg współpracy",
+    "title": "Cztery etapy realizacji projektu",
+    "subtitle": "Przejrzysty proces. Każdy etap z jasno określonym zakresem, terminem oraz kosztem.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kontakt",
+        "description": "Kontaktujesz się przez formularz lub telefonicznie. Krótka rozmowa pozwala mi poznać zakres i charakter projektu."
+      },
+      {
+        "number": "02",
+        "title": "Wycena: 24h, bezpłatnie",
+        "description": "Otrzymujesz szczegółową wycenę, harmonogram oraz zakres prac. Bez zobowiązań."
+      },
+      {
+        "number": "03",
+        "title": "Realizacja",
+        "description": "Po akceptacji wyceny rozpoczynam prace. Strona-wizytówka realizowana w ciągu 48 godzin od podpisania umowy."
+      },
+      {
+        "number": "04",
+        "title": "Wdrożenie i wsparcie",
+        "description": "Publikuję projekt, konfiguruję analitykę oraz przeprowadzam szkolenie z edycji treści. Opcjonalnie obejmuję projekt stałą opieką."
+      }
+    ]
+  },
+  "about": {
+    "label": "O mnie",
+    "title": "Jakub Kurdziel, Web Developer",
+    "intro": "Od ponad pięciu lat projektuję, wdrażam oraz utrzymuję strony i aplikacje internetowe. Współpracuję z klientami o różnej skali, od jednoosobowych działalności gospodarczych po większe podmioty gospodarcze. Cenię precyzyjne komunikowanie wymagań oraz dotrzymywanie ustalonych terminów.",
+    "intro2": "Doradzam rozwiązania adekwatne do realnych potrzeb i skali biznesu. Realizuję zarówno proste strony-wizytówki, jak i rozbudowane systemy z integracjami, zawsze w zakresie wspierającym konkretne cele Twojej firmy.",
+    "stackLabel": "Wykorzystywane technologie",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma",
+      "Vercel",
+      "GA4",
+      "Stripe"
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Najczęściej zadawane pytania",
+    "subtitle": "Nie znalazłeś odpowiedzi na swoje pytanie? Zachęcam do bezpośredniego kontaktu.",
+    "items": [
+      {
+        "q": "Ile kosztuje strona internetowa?",
+        "a": "Strona-wizytówka kosztuje 299 zł. Większe projekty wyceniam indywidualnie po wstępnej rozmowie. Każdy klient otrzymuje pełną wycenę przed rozpoczęciem prac, bez ukrytych kosztów."
+      },
+      {
+        "q": "Jak długo trwa realizacja strony?",
+        "a": "Strona-wizytówka jest realizowana do 48 godzin od ustaleniu szczegółów oraz dostarczeniu materiałów (logo, treści, zdjęcia). Większe projekty zwykle 1 do 4 tygodni. Terminy ustalam realistycznie i konsekwentnie ich dotrzymuję."
+      },
+      {
+        "q": "Czy hosting i domena są wliczone w cenę?",
+        "a": "W pakiecie E-wizytówka pierwszy rok hostingu i domeny w cenie. Koszt utrzymania w kolejnych latach wynosi około 100 do 200 zł rocznie, zależnie od wybranej domeny. Istnieje również możliwość wdrożenia projektu na hostingu klienta."
+      },
+      {
+        "q": "Czy mogę samodzielnie edytować treści po wdrożeniu?",
+        "a": "Tak. Standardowo przeprowadzam szkolenie z edycji kluczowych sekcji strony. Wdrożenie panelu CMS (na przykład do prowadzenia bloga) realizowane jest w ramach wyceny indywidualnej."
+      },
+      {
+        "q": "Czy zajmujesz się również optymalizacją SEO?",
+        "a": "Tak. Każdy projekt obejmuje podstawową optymalizację SEO (meta tagi, sitemap, dane strukturalne, Core Web Vitals). Zaawansowane pozycjonowanie oraz content marketing oferuję jako odrębną usługę."
+      },
+      {
+        "q": "Z jakich technologii korzystasz?",
+        "a": "Next.js, React, TypeScript oraz Tailwind CSS. Strony powstają jako szybkie, dobrze indeksowane przez wyszukiwarki i łatwe do dalszego rozwoju. W przypadku prostszych projektów stosuję również WordPress. Dobór technologii zawsze podyktowany jest specyfiką projektu."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Skontaktuj się ze mną",
+    "subtitle": "Wycena bezpłatna. Odpowiadam zwykle w ciągu 24 godzin. Bez zobowiązań.",
+    "form": {
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Adres e-mail",
+      "emailPlaceholder": "jan@firma.pl",
+      "phone": "Telefon",
+      "phoneOptional": "(opcjonalnie)",
+      "phonePlaceholder": "+48 600 000 000",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Krótko opisz zakres projektu: branża, cel strony, oczekiwany termin realizacji…",
+      "submit": "Wyślij zapytanie",
+      "submitting": "Wysyłanie…",
+      "success": "Dziękuję za wiadomość. Odpowiem w ciągu 24 godzin.",
+      "error": "Wystąpił błąd podczas wysyłania. Proszę o kontakt mailowy."
+    },
+    "info": {
+      "email": "E-mail",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "location": "Lokalizacja",
+      "locationValue": "Polska, współpraca zdalna"
+    }
+  },
+  "footer": {
+    "tagline": "Strony internetowe wspierające cele biznesowe Twojej firmy.",
+    "navTitle": "Nawigacja",
+    "contactTitle": "Kontakt",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "theme": {
+    "toggleLabel": "Zmień motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
+  },
+  "lang": {
+    "switchLabel": "Zmień język",
+    "pl": "Polski",
+    "en": "English"
+  }
+}

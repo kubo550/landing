@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Light theme — soft warm pearl */
+  --color-bg: #f4f3ef;
+  --color-fg: #0a0a0f;
+  --color-fg-muted: #54545e;
+  --color-fg-subtle: #86868f;
+
+  --color-surface: rgb(255 255 255 / 0.55);
+  --color-surface-strong: rgb(255 255 255 / 0.78);
+  --color-surface-2: rgb(255 255 255 / 0.35);
+  --color-border: rgb(10 10 15 / 0.08);
+  --color-border-strong: rgb(10 10 15 / 0.16);
+
+  --color-accent: #0a84ff;
+  --color-accent-hover: #006fe6;
+  --color-accent-fg: #ffffff;
+
+  --aurora-1: #ffb1d9;
+  --aurora-2: #b8a8ff;
+  --aurora-3: #8fd9ff;
+  --aurora-4: #ffd6a5;
+  --aurora-opacity: 0.55;
+
+  --animate-fade-up: fade-up 0.6s ease-out forwards;
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-aurora: aurora 28s ease-in-out infinite alternate;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes aurora {
+    0%   { transform: translate3d(-4%, -2%, 0) scale(1); }
+    50%  { transform: translate3d(3%, 2%, 0) scale(1.08); }
+    100% { transform: translate3d(-2%, 4%, 0) scale(1.02); }
+  }
+}
+
+.dark {
+  --color-bg: #06060a;
+  --color-fg: #ecebe8;
+  --color-fg-muted: #9ca0ac;
+  --color-fg-subtle: #6c6f7c;
+
+  --color-surface: rgb(255 255 255 / 0.04);
+  --color-surface-strong: rgb(255 255 255 / 0.08);
+  --color-surface-2: rgb(255 255 255 / 0.02);
+  --color-border: rgb(255 255 255 / 0.08);
+  --color-border-strong: rgb(255 255 255 / 0.18);
+
+  --color-accent: #64d2ff;
+  --color-accent-hover: #34a8e0;
+  --color-accent-fg: #06060a;
+
+  --aurora-1: #6d28d9;
+  --aurora-2: #db2777;
+  --aurora-3: #0ea5e9;
+  --aurora-4: #f59e0b;
+  --aurora-opacity: 0.45;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Aurora gradient mesh — fixed background */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: -20%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: var(--aurora-opacity);
+    background:
+      radial-gradient(50% 45% at 18% 22%, var(--aurora-1) 0%, transparent 60%),
+      radial-gradient(45% 50% at 82% 18%, var(--aurora-2) 0%, transparent 65%),
+      radial-gradient(55% 50% at 75% 82%, var(--aurora-3) 0%, transparent 60%),
+      radial-gradient(40% 45% at 22% 78%, var(--aurora-4) 0%, transparent 60%);
+    filter: blur(80px) saturate(140%);
+    animation: var(--animate-aurora);
+  }
+
+  /* Subtle grain on top of aurora to break gradient banding */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.04;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Make sure all real content sits above aurora layers */
+  body > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-fg);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    body::before { animation: none; }
+  }
+}
+
+@layer components {
+  /* Reusable liquid glass card */
+  .glass {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    backdrop-filter: blur(28px) saturate(160%);
+    -webkit-backdrop-filter: blur(28px) saturate(160%);
+    box-shadow:
+      0 1px 0 0 rgb(255 255 255 / 0.08) inset,
+      0 24px 60px -28px rgb(0 0 0 / 0.45);
+  }
+
+  .glass-strong {
+    background-color: var(--color-surface-strong);
+    border: 1px solid var(--color-border);
+    backdrop-filter: blur(36px) saturate(170%);
+    -webkit-backdrop-filter: blur(36px) saturate(170%);
+    box-shadow:
+      0 1px 0 0 rgb(255 255 255 / 0.1) inset,
+      0 28px 70px -28px rgb(0 0 0 / 0.5);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
