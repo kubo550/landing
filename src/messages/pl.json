@@ -1,15 +1,16 @@
 {
   "meta": {
-    "title": "Jakub Kurdziel: Strony internetowe od 299 zł",
+    "title": "Strony internetowe od 349 zł | Jakub Kurdziel, Web Developer",
     "titleTemplate": "%s | Jakub Kurdziel",
-    "description": "Web Developer z 5-letnim doświadczeniem. Projektuję i wdrażam profesjonalne strony internetowe dla firm. E-wizytówka od 299 zł, realizacja w 48 godzin. SEO, analityka i integracje w pakiecie.",
-    "ogTitle": "Profesjonalna strona internetowa Twojej firmy. Od 299 zł. Realizacja w 48h.",
+    "description": "Web Developer z 5-letnim doświadczeniem. Projektuję i wdrażam profesjonalne strony internetowe dla firm. E-wizytówka od 349 zł, realizacja w 48 godzin. SEO, analityka i integracje w pakiecie.",
+    "ogTitle": "Profesjonalna strona internetowa Twojej firmy. Od 349 zł. Realizacja w 48h.",
     "ogDescription": "Strony-wizytówki, landing page, SEO, analityka i integracje. Bezpłatna wycena, wdrożenie w 48 godzin.",
     "keywords": "strony internetowe, landing page, web developer, programista stron, SEO, wizytówka firmy, react, nextjs, freelancer, Polska"
   },
   "nav": {
     "services": "Usługi",
     "portfolio": "Realizacje",
+    "calculator": "Wycena",
     "process": "Proces",
     "about": "O mnie",
     "faq": "FAQ",
@@ -23,20 +24,88 @@
     "titleLine1": "Profesjonalna strona",
     "titleHighlight": "internetowa dla Twojej firmy.",
     "titleLine2Pre": "Od",
-    "titleLine2Price": "299 zł",
+    "titleLine2Price": "349 zł",
     "titleLine2Mid": ". Realizacja w",
     "titleLine2Time": "48h",
     "titleLine2Post": ".",
-    "subtitle": "Strona-wizytówka gotowa w 48 godzin od ustaleniu szczegółów. SEO, analityka i integracje w pakiecie. Przejrzyste warunki, bez ukrytych kosztów.",
+    "subtitle": "Strona-wizytówka pod cele Twojej firmy. SEO, analityka i integracje w pakiecie. Przejrzyste warunki, bez ukrytych kosztów.",
     "ctaPrimary": "Bezpłatna wycena",
     "ctaSecondary": "Zobacz ofertę",
     "stats": {
       "yearsValue": "5+",
       "yearsLabel": "lat doświadczenia",
-      "projectsValue": "40+",
-      "projectsLabel": "zrealizowanych projektów",
+      "projectsValue": "6+",
+      "projectsLabel": "wdrożonych projektów",
       "responseValue": "<24h",
       "responseLabel": "czas odpowiedzi"
+    },
+    "availability": "Najbliższy wolny start: {date}"
+  },
+  "promo": {
+    "label": "Oferta dnia",
+    "title": "E-wizytówka + Pakiet SEO",
+    "subtitle": "Pełna strona-wizytówka z optymalizacją SEO. Komplet, by zaistnieć w Google od pierwszego dnia.",
+    "feature1": "Strona-wizytówka gotowa w 48h",
+    "feature2": "Optymalizacja SEO i schema.org",
+    "feature3": "Wdrożenie Google Search Console i Google Maps",
+    "originalPrice": "698",
+    "promoPrice": "399",
+    "currency": "zł",
+    "savings": "Oszczędzasz 299 zł",
+    "validUntil": "Ważne do końca dnia",
+    "cta": "Odbierz tę ofertę"
+  },
+  "painPoints": {
+    "label": "Bolączki klientów",
+    "title": "Czy to znasz?",
+    "subtitle": "Najczęstsze problemy z którymi przychodzą klienci. Każdy z nich potrafię rozwiązać.",
+    "items": [
+      {
+        "pain": "Strona ładuje się wieki?",
+        "painDesc": "3 do 5 sekund to przepis na utratę pozycji w Google i nawet 50% odwiedzających.",
+        "solution": "Szybka strona w <1 sekundę",
+        "solutionDesc": "Next.js, optymalizacja obrazków i cache. Lighthouse 95+ standardowo, mierzalna różnica."
+      },
+      {
+        "pain": "Płacisz miesięcznie za Wix lub Squarespace?",
+        "painDesc": "80 do 120 zł/miesiąc bez końca, lock-in u dostawcy, ograniczona personalizacja.",
+        "solution": "Własna strona, jednorazowy koszt",
+        "solutionDesc": "Po wdrożeniu utrzymanie ~10 zł/mies. (hosting + domena). Bez subskrypcji, pełna kontrola."
+      },
+      {
+        "pain": "Stary WordPress, który ledwo dycha?",
+        "painDesc": "Wtyczki padają, strona wolna, ataki na panel admin, nieustanne aktualizacje.",
+        "solution": "Utrzymanie, naprawa lub migracja",
+        "solutionDesc": "Przyspieszę, zabezpieczę i utrzymam. Albo przeniosę na nowoczesny stack z zachowaniem pozycji w Google."
+      },
+      {
+        "pain": "Każda zmiana tekstu = telefon do programisty?",
+        "painDesc": "Agencja zniknęła albo bierze 200 zł za poprawę przecinka. Stoisz z czymś czego nie umiesz utrzymać.",
+        "solution": "Samodzielna edycja przez panel",
+        "solutionDesc": "CMS-lite, edytujesz teksty, zdjęcia i sekcje sam, w kilka minut. Bez żadnego programisty."
+      },
+      {
+        "pain": "Strona nie generuje zapytań?",
+        "painDesc": "Brak CTA, zepsuty formularz, brak analityki. Strzelasz w ciemno i nie wiesz co działa.",
+        "solution": "Konwersja + dane",
+        "solutionDesc": "Skuteczne CTA, działający formularz, GA4 i alerty o leadach. Wreszcie wiesz co przynosi klientów."
+      }
+    ],
+    "cta": "Rozwiążę Twoje problemy, odezwij się"
+  },
+  "trustBar": {
+    "ariaLabel": "Statystyki i zaufanie",
+    "lighthouse": {
+      "value": "95+",
+      "label": "Lighthouse Performance"
+    },
+    "satisfied": {
+      "value": "100%",
+      "label": "zadowolonych klientów"
+    },
+    "delivery": {
+      "value": "48h",
+      "label": "do wdrożenia"
     }
   },
   "services": {
@@ -48,15 +117,16 @@
     "currency": "zł",
     "individual": "wycena indywidualna",
     "card": {
-      "tagline": "Profesjonalna strona internetowa już od 299 zł.",
+      "tagline": "Profesjonalna strona internetowa już od 349 zł.",
       "title": "E-wizytówka",
-      "description": "Profesjonalna strona-wizytówka prezentująca Twoją firmę. Realizacja w ciągu 48 godzin od ustaleniu szczegółów.",
-      "price": "299",
+      "description": "Profesjonalna strona-wizytówka prezentująca Twoją firmę. Realizacja w ciągu 48 godzin od ustalenia szczegółów.",
+      "price": "349",
       "features": [
         "Responsywny design w podejściu mobile-first",
         "Formularz kontaktowy",
         "Podstawowa optymalizacja SEO oraz integracja z Google Maps",
-        "Hosting i domena (pierwszy rok w cenie)",
+        "Dostępność WCAG 2.1 dla osób z niepełnosprawnościami",
+        "Hosting (pierwszy rok w cenie)",
         "Wdrożenie w ciągu 48 godzin"
       ]
     },
@@ -81,13 +151,14 @@
       ]
     },
     "integrations": {
-      "title": "Integracje zewnętrzne",
-      "description": "Płatności, kalendarze rezerwacji, systemy CRM, mailing oraz rozwiązania oparte na sztucznej inteligencji.",
+      "title": "AI na stronie i integracje",
+      "description": "Chatboty AI, wyszukiwarka semantyczna RAG, kreatory wycen i asystenci. Plus integracje z płatnościami, CRM, mailingiem i kalendarzem rezerwacji.",
       "features": [
-        "Systemy płatności (Stripe, Przelewy24)",
-        "Rezerwacje online (Calendly, Cal.com)",
-        "Integracja z CRM oraz mailingiem (HubSpot, Mailchimp)",
-        "Chat oraz asystent AI"
+        "Chatboty i asystenci AI (OpenAI, Claude, własny LLM)",
+        "Wyszukiwarka dokumentacji oparta na RAG",
+        "Kreatory i kalkulatory wycen wspierane przez AI",
+        "Płatności, rezerwacje (Stripe, Cal.com)",
+        "CRM i mailing (HubSpot, Mailchimp)"
       ]
     },
     "maintenance": {
@@ -104,63 +175,132 @@
   "portfolio": {
     "label": "Realizacje",
     "title": "Wybrane realizacje",
-    "subtitle": "Poniżej projekty, które mogę publicznie zaprezentować. Pozostałe realizacje, w tym objęte umową poufności, udostępniam podczas konsultacji.",
+    "subtitle": "Wybrane realizacje, które najlepiej pokazują podejście do projektów: szybkie strony, czytelny design i nacisk na cele biznesowe klienta.",
     "viewLive": "Zobacz stronę",
-    "ndaNote": "Część zrealizowanych projektów objęta jest umową NDA. Pełne portfolio przedstawiam podczas indywidualnej rozmowy.",
+    "ndaNote": "Każda strona projektowana pod konkretne cele biznesowe klienta, nigdy z gotowego szablonu.",
     "items": [
       {
         "title": "Komfortinstal",
         "domain": "komfortinstal.com.pl",
-        "description": "Strona-wizytówka prezentująca ofertę firmy z branży instalacji technicznych.",
+        "description": "Strona-wizytówka firmy specjalizującej się w rekuperacji i instalacjach grzewczych.",
         "tags": ["Strona-wizytówka", "SEO"],
         "url": "https://komfortinstal.com.pl/",
+        "image": "/portfolio/komfortinstal.webp",
         "monogram": "K"
       },
       {
         "title": "Moxie Daily",
         "domain": "moxiedaily.co",
-        "description": "Strona marki contentowej z subskrypcją newslettera oraz integracją z systemem mailingowym.",
-        "tags": ["Brand", "Newsletter"],
+        "description": "Strona marki rozwoju osobistego łączącej odzież motywacyjną z kodami QR oraz aplikację wspierającą zdrowie psychiczne i codzienne nawyki.",
+        "tags": ["Brand", "Aplikacja"],
         "url": "https://moxiedaily.co/",
+        "image": "/portfolio/moxiedaily.webp",
         "monogram": "M"
       },
       {
         "title": "ReSHRD",
         "domain": "my.reshrd.com",
-        "description": "Interfejs aplikacji webowej z panelem użytkownika oraz integracjami zewnętrznymi.",
+        "description": "Aplikacja webowa do zarządzania spersonalizowanymi produktami z kodami QR. Pełen panel klienta z integracjami zewnętrznymi.",
         "tags": ["Aplikacja", "Dashboard"],
         "url": "https://my.reshrd.com/",
+        "image": "/portfolio/reshrd.webp",
         "monogram": "R"
       }
     ]
   },
-  "testimonials": {
-    "label": "Opinie",
-    "title": "Co mówią klienci",
-    "subtitle": "Krótkie opinie osób, z którymi miałem przyjemność współpracować.",
-    "items": [
-      {
-        "quote": "Nie znam się na tym wszystkim, a Pan Jakub elegancko poprowadził mnie za rączkę przez cały proces. Strona stanęła w 2 dni, wygląda pięknie, nawet domenę za darmo na rok mi załatwił. Polecam każdemu, kto potrzebuje strony bez zbędnego stresu.",
-        "name": "Anna Nowak",
-        "role": "Właścicielka",
-        "company": "Salon Fryzjerski Estetica",
-        "initials": "AN"
+  "calculator": {
+    "label": "Wstępna wycena",
+    "title": "Skonfiguruj swoją stronę",
+    "subtitle": "Wybierz pakiet i dodatki, a zobaczysz orientacyjną wycenę. Finalna kwota po krótkiej rozmowie, bez zobowiązań.",
+    "step1": "1. Wybierz pakiet",
+    "step2": "2. Dodatki",
+    "summaryTitle": "Twoja wycena",
+    "summaryEmpty": "Wybierz pakiet, aby zobaczyć orientacyjną wycenę.",
+    "fromPrefix": "od",
+    "currency": "zł",
+    "addon": "dodatek",
+    "perYear": "rocznie",
+    "totalLabel": "Razem",
+    "totalFromLabel": "Razem od",
+    "disclaimer": "To wstępna kalkulacja. Finalna wycena po krótkiej rozmowie. Uwzględniam zakres, terminy i indywidualne wymagania.",
+    "negotiable": "Wybierając kilka dodatków otwieramy temat negocjacji ceny. Zwykle robi się sensowny rabat na cały pakiet.",
+    "cta": "Wyślij zapytanie z tą wyceną",
+    "packages": {
+      "card": {
+        "name": "E-wizytówka",
+        "description": "Strona-wizytówka. Idealna na start."
       },
-      {
-        "quote": "Niesamowite tempo realizacji. Wycena w 24 godziny, strona gotowa po dwóch dniach od podpisania umowy. Wszystko działa szybko, wygląda profesjonalnie. Od czasu uruchomienia mam więcej zapytań niż przez ostatnie pół roku.",
-        "name": "Marek Kowalski",
-        "role": "Właściciel",
-        "company": "Auto-Detailing Premium",
-        "initials": "MK"
+      "landing": {
+        "name": "Landing page",
+        "description": "Konwersyjny landing pod konkretną kampanię lub produkt."
       },
-      {
-        "quote": "Profesjonalne podejście od pierwszego maila. Dokładnie wytłumaczył, co i dlaczego, doradził rozwiązania, których sami nie wzięlibyśmy pod uwagę. Komunikacja precyzyjna, terminy dotrzymane co do dnia. Polecam bez zastrzeżeń.",
-        "name": "Katarzyna Wójcik",
-        "role": "Dyrektor marketingu",
-        "company": "Studio Brand & Co.",
-        "initials": "KW"
+      "multipage": {
+        "name": "Strona firmowa",
+        "description": "Wielostronicowa, z podstronami usług i blogiem."
+      },
+      "custom": {
+        "name": "Sklep / aplikacja",
+        "description": "E-commerce, panel użytkownika lub aplikacja webowa."
       }
-    ]
+    },
+    "addons": {
+      "seo": {
+        "name": "Pakiet SEO",
+        "description": "Audyt techniczny, słowa kluczowe, schema.org."
+      },
+      "analytics": {
+        "name": "Analityka GA4 + GTM",
+        "description": "Wdrożenie tagów, celów i konwersji."
+      },
+      "multilang": {
+        "name": "Druga wersja językowa",
+        "description": "Strona w drugim języku z poprawnymi hreflang i SEO."
+      },
+      "cms": {
+        "name": "Samodzielna edycja treści",
+        "description": "Panel CMS do edycji tekstów, zdjęć i sekcji bez programisty."
+      },
+      "blog": {
+        "name": "Blog z CMS",
+        "description": "Edytowalny blog z prostym panelem do dodawania wpisów."
+      },
+      "crm": {
+        "name": "Integracja CRM / mailing",
+        "description": "HubSpot, Mailchimp, Brevo lub własny endpoint."
+      },
+      "chat": {
+        "name": "WhatsApp + LiveChat",
+        "description": "Szybki kontakt: przycisk WhatsApp i widget czatu (Crisp / Tawk.to)."
+      },
+      "leadAlerts": {
+        "name": "Powiadomienia o leadach",
+        "description": "Natychmiastowe alerty o nowych zapytaniach na Slack, Discord lub e-mail."
+      },
+      "automations": {
+        "name": "Automatyzacje (Zapier / Make / n8n)",
+        "description": "Łączy stronę z Google Sheets, Slackiem, CRM czy mailingiem, bez programisty."
+      },
+      "payments": {
+        "name": "Płatności online",
+        "description": "Stripe, Przelewy24, BLIK lub PayU. Pełen flow zakupu i automatyczne potwierdzenia."
+      },
+      "aiChat": {
+        "name": "Chatbot AI",
+        "description": "Asystent AI odpowiadający na pytania z Twojej oferty (OpenAI / Claude)."
+      },
+      "aiSearch": {
+        "name": "Wyszukiwarka AI (RAG)",
+        "description": "Semantyczne wyszukiwanie po dokumentacji, ofercie lub bazie wiedzy."
+      },
+      "aiCalc": {
+        "name": "Kalkulator wyceny AI",
+        "description": "Kreator zbierający potrzeby klienta i generujący wycenę."
+      },
+      "maintenance": {
+        "name": "Roczne utrzymanie",
+        "description": "Hosting, monitoring, backupy i drobne poprawki przez 12 miesięcy."
+      }
+    }
   },
   "process": {
     "label": "Przebieg współpracy",
@@ -180,7 +320,7 @@
       {
         "number": "03",
         "title": "Realizacja",
-        "description": "Po akceptacji wyceny rozpoczynam prace. Strona-wizytówka realizowana w ciągu 48 godzin od podpisania umowy."
+        "description": "Po akceptacji wyceny rozpoczynam prace. Strona-wizytówka realizowana w ciągu 48 godzin od potwierdzenia zlecenia."
       },
       {
         "number": "04",
@@ -192,21 +332,20 @@
   "about": {
     "label": "O mnie",
     "title": "Jakub Kurdziel, Web Developer",
-    "intro": "Od ponad pięciu lat projektuję, wdrażam oraz utrzymuję strony i aplikacje internetowe. Współpracuję z klientami o różnej skali, od jednoosobowych działalności gospodarczych po większe podmioty gospodarcze. Cenię precyzyjne komunikowanie wymagań oraz dotrzymywanie ustalonych terminów.",
-    "intro2": "Doradzam rozwiązania adekwatne do realnych potrzeb i skali biznesu. Realizuję zarówno proste strony-wizytówki, jak i rozbudowane systemy z integracjami, zawsze w zakresie wspierającym konkretne cele Twojej firmy.",
-    "stackLabel": "Wykorzystywane technologie",
-    "stack": [
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Node.js",
-      "Tailwind CSS",
-      "PostgreSQL",
-      "Prisma",
-      "Vercel",
-      "GA4",
-      "Stripe"
-    ]
+    "intro": "Od ponad pięciu lat projektuję, wdrażam i utrzymuję strony oraz aplikacje internetowe. Współpracuję z klientami różnej skali, od freelancerów po średnie firmy. Cenię klarowną komunikację i dotrzymywanie terminów.",
+    "intro2": "Doradzam rozwiązania dopasowane do realnych potrzeb. Realizuję zarówno proste strony-wizytówki, jak i rozbudowane systemy z integracjami, zawsze pod konkretne cele Twojej firmy.",
+    "benefitsLabel": "Co zyskujesz",
+    "benefits": [
+      "Strony ładujące się w <1 sekundę",
+      "Wysokie pozycje w Google (SEO + Core Web Vitals)",
+      "Mobile-first, działa na każdym ekranie",
+      "Dostępność WCAG 2.1 (AA), strona także dla osób z niepełnosprawnościami",
+      "99,9% dostępności i monitoring 24/7",
+      "Bezpieczne dane i płatności (SSL, RODO)",
+      "Łatwa edycja treści, bez ingerencji programisty"
+    ],
+    "stackHintLabel": "Stack techniczny",
+    "stackHint": "Next.js · TypeScript · Tailwind · PostgreSQL · Vercel"
   },
   "faq": {
     "label": "FAQ",
@@ -215,15 +354,15 @@
     "items": [
       {
         "q": "Ile kosztuje strona internetowa?",
-        "a": "Strona-wizytówka kosztuje 299 zł. Większe projekty wyceniam indywidualnie po wstępnej rozmowie. Każdy klient otrzymuje pełną wycenę przed rozpoczęciem prac, bez ukrytych kosztów."
+        "a": "Strona-wizytówka kosztuje 349 zł. Większe projekty wyceniam indywidualnie po wstępnej rozmowie. Każdy klient otrzymuje pełną wycenę przed rozpoczęciem prac, bez ukrytych kosztów."
       },
       {
         "q": "Jak długo trwa realizacja strony?",
-        "a": "Strona-wizytówka jest realizowana do 48 godzin od ustaleniu szczegółów oraz dostarczeniu materiałów (logo, treści, zdjęcia). Większe projekty zwykle 1 do 4 tygodni. Terminy ustalam realistycznie i konsekwentnie ich dotrzymuję."
+        "a": "Strona-wizytówka jest realizowana do 48 godzin od ustalenia szczegółów oraz dostarczenia materiałów (logo, treści, zdjęcia). Większe projekty zwykle 1 do 4 tygodni. Terminy ustalam realistycznie i konsekwentnie ich dotrzymuję."
       },
       {
         "q": "Czy hosting i domena są wliczone w cenę?",
-        "a": "W pakiecie E-wizytówka pierwszy rok hostingu i domeny w cenie. Koszt utrzymania w kolejnych latach wynosi około 100 do 200 zł rocznie, zależnie od wybranej domeny. Istnieje również możliwość wdrożenia projektu na hostingu klienta."
+        "a": "W pakiecie E-wizytówka pierwszy rok hostingu w cenie. Domena nie jest wliczona, jej koszt to zwykle 50 do 150 zł rocznie, zależnie od wybranego rozszerzenia. Istnieje również możliwość wdrożenia projektu na hostingu klienta."
       },
       {
         "q": "Czy mogę samodzielnie edytować treści po wdrożeniu?",
@@ -235,7 +374,11 @@
       },
       {
         "q": "Z jakich technologii korzystasz?",
-        "a": "Next.js, React, TypeScript oraz Tailwind CSS. Strony powstają jako szybkie, dobrze indeksowane przez wyszukiwarki i łatwe do dalszego rozwoju. W przypadku prostszych projektów stosuję również WordPress. Dobór technologii zawsze podyktowany jest specyfiką projektu."
+        "a": "Nowe strony buduję w Next.js, React, TypeScript i Tailwind CSS. Powstają jako szybkie, dobrze indeksowane przez Google i łatwe do dalszego rozwoju. Znam też WordPressa, potrafię go utrzymać, naprawić, przyspieszyć lub przeprowadzić z niego migrację, jeśli ktoś już ma stronę na tej technologii. Dobór technologii zawsze podyktowany jest specyfiką projektu."
+      },
+      {
+        "q": "Czy strona będzie dostępna dla osób z niepełnosprawnościami?",
+        "a": "Tak. Każdy projekt buduję zgodnie ze standardem WCAG 2.1 na poziomie AA. Oznacza to: odpowiednie kontrasty, czytelne fonty, semantyczny HTML, pełna obsługa klawiatury, opisy alt dla obrazów, etykiety dla pól formularzy oraz zgodność z czytnikami ekranu (NVDA, VoiceOver). Strona działa dla wszystkich, niezależnie od ograniczeń wzroku, słuchu czy motoryki. Dla bardziej wymagających wdrożeń (np. dla podmiotów publicznych) realizuję pełny audyt WCAG i zgodność z ustawą o dostępności cyfrowej."
       }
     ]
   },
@@ -262,6 +405,8 @@
       "email": "E-mail",
       "github": "GitHub",
       "linkedin": "LinkedIn",
+      "messenger": "Messenger",
+      "instagram": "Instagram",
       "location": "Lokalizacja",
       "locationValue": "Polska, współpraca zdalna"
     }

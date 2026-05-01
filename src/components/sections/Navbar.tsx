@@ -10,7 +10,7 @@ import { LangSwitcher } from '../ui/LangSwitcher';
 import { Button } from '../ui/Button';
 import { cn } from '@/lib/cn';
 
-const NAV_ITEMS = ['services', 'portfolio', 'process', 'about', 'faq', 'contact'] as const;
+const NAV_ITEMS = ['services', 'portfolio', 'calculator', 'process', 'about', 'faq', 'contact'] as const;
 
 export function Navbar() {
   const t = useTranslations('nav');

@@ -9,6 +9,10 @@ import { cn } from '@/lib/cn';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
+// Public access key, safe to ship client-side per web3forms.com.
+const WEB3FORMS_ACCESS_KEY =
+  process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? 'd1d87e0c-c9c2-4e71-afd6-d329767c23da';
+
 const inputCls =
   'glass w-full rounded-xl px-3.5 py-2.5 text-sm text-[color:var(--color-fg)] placeholder:text-[color:var(--color-fg-subtle)] transition focus-visible:[border-color:var(--color-accent)] focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-[color:var(--color-accent)]';
 
@@ -23,25 +27,40 @@ export function ContactForm() {
     e.preventDefault();
     setStatus('submitting');
 
-    const formData = new FormData(e.currentTarget);
-    const payload = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      phone: formData.get('phone'),
-      message: formData.get('message'),
-    };
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
-    // TODO: replace with real submission (e.g. POST to /api/contact)
-    console.log('[contact]', payload);
-
-    await new Promise((r) => setTimeout(r, 600));
-
-    setStatus('success');
-    e.currentTarget.reset();
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await response.json();
+      if (data.success) {
+        setStatus('success');
+        form.reset();
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
   }
 
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-4" noValidate>
+      <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+      <input type="hidden" name="subject" value="Nowe zapytanie z jakub-kurdziel.pl" />
+      <input type="hidden" name="from_name" value="jakub-kurdziel.pl" />
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        aria-hidden="true"
+        className="hidden"
+        defaultChecked={false}
+      />
+
       <div className="grid gap-4 sm:grid-cols-2">
         <label className={labelCls}>
           {t('form.name')}

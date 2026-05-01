@@ -1,11 +1,12 @@
 import { useTranslations } from 'next-intl';
+import { Check } from 'lucide-react';
 
 import { Container } from '../ui/Container';
 import { SectionHeading } from '../ui/SectionHeading';
 
 export function About() {
   const t = useTranslations('about');
-  const stack = t.raw('stack') as string[];
+  const benefits = t.raw('benefits') as string[];
 
   return (
     <section id="about" className="py-20 sm:py-28">
@@ -35,18 +36,28 @@ export function About() {
 
               <div className="flex flex-col gap-3 border-t border-[color:var(--color-border)] pt-5">
                 <span className="font-mono text-[0.65rem] uppercase tracking-[0.18em] text-[color:var(--color-fg-subtle)]">
-                  {t('stackLabel')}
+                  {t('benefitsLabel')}
                 </span>
-                <ul className="flex flex-wrap gap-1.5">
-                  {stack.map((s) => (
-                    <li
-                      key={s}
-                      className="rounded-md border border-[color:var(--color-border)] bg-[color:var(--color-surface)] px-2.5 py-1 font-mono text-xs text-[color:var(--color-fg)]"
-                    >
-                      {s}
+                <ul className="flex flex-col gap-2.5">
+                  {benefits.map((b) => (
+                    <li key={b} className="flex items-start gap-2.5 text-sm">
+                      <Check
+                        className="mt-0.5 h-4 w-4 shrink-0 text-[color:var(--color-accent)]"
+                        aria-hidden="true"
+                      />
+                      <span className="text-[color:var(--color-fg)]">{b}</span>
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              <div className="flex flex-col gap-1.5 border-t border-[color:var(--color-border)] pt-5">
+                <span className="font-mono text-[0.6rem] uppercase tracking-[0.18em] text-[color:var(--color-fg-subtle)]">
+                  {t('stackHintLabel')}
+                </span>
+                <span className="font-mono text-xs text-[color:var(--color-fg-muted)]">
+                  {t('stackHint')}
+                </span>
               </div>
             </div>
           </aside>

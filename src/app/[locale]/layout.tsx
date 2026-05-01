@@ -9,6 +9,7 @@ import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/ui/ThemeProvider';
 import { ConsoleGreeting } from '@/components/ui/ConsoleGreeting';
 import { MouseSpotlight } from '@/components/ui/MouseSpotlight';
+import { MobileCTA } from '@/components/ui/MobileCTA';
 import { siteConfig, type Locale } from '@/lib/site';
 
 import '../globals.css';
@@ -126,7 +127,7 @@ export default async function LocaleLayout({
     description: t('description'),
     areaServed: { '@type': 'Country', name: 'Poland' },
     address: { '@type': 'PostalAddress', addressCountry: 'PL' },
-    priceRange: 'PLN 299+',
+    priceRange: 'PLN 349+',
     sameAs: [siteConfig.github, siteConfig.linkedin],
   };
 
@@ -146,6 +147,7 @@ export default async function LocaleLayout({
             </a>
             <MouseSpotlight />
             {children}
+            <MobileCTA />
             <ConsoleGreeting />
           </NextIntlClientProvider>
         </ThemeProvider>

@@ -6,6 +6,10 @@ export const siteConfig = {
   githubHandle: 'kubo550',
   linkedin: 'https://www.linkedin.com/in/jakub--kurdziel/',
   linkedinHandle: 'jakub--kurdziel',
+  messenger: 'https://m.me/powerty2',
+  messengerHandle: 'powerty2',
+  instagram: 'https://www.instagram.com/jake.dziel/',
+  instagramHandle: 'jake.dziel',
   jobTitle: {
     pl: 'Web Developer',
     en: 'Web Developer',

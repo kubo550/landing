@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react';
 
 import { Container } from '../ui/Container';
 import { siteConfig } from '@/lib/site';
@@ -83,6 +83,32 @@ export function Footer() {
                   {tContact('linkedin')}
                 </a>
               </li>
+              {siteConfig.messenger && (
+                <li>
+                  <a
+                    href={siteConfig.messenger}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-[color:var(--color-fg-muted)] transition hover:text-[color:var(--color-fg)]"
+                  >
+                    <MessageCircle className="h-4 w-4" aria-hidden="true" />
+                    {tContact('messenger')}
+                  </a>
+                </li>
+              )}
+              {siteConfig.instagram && (
+                <li>
+                  <a
+                    href={siteConfig.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-[color:var(--color-fg-muted)] transition hover:text-[color:var(--color-fg)]"
+                  >
+                    <Instagram className="h-4 w-4" aria-hidden="true" />
+                    {tContact('instagram')}
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
         </div>
@@ -93,7 +119,7 @@ export function Footer() {
           </p>
           <p className="font-mono">
             <span className="text-[color:var(--color-accent)]">{'<'}</span>
-            built with Next.js + Tailwind
+            built with <span className="text-[color:var(--color-accent)]">{'<3'}</span> Next.js + Tailwind
             <span className="text-[color:var(--color-accent)]">{'/>'}</span>
           </p>
         </div>

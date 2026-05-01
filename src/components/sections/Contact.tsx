@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, MapPin, MessageCircle } from 'lucide-react';
 import type { ComponentType, SVGProps } from 'react';
 
 import { Container } from '../ui/Container';
@@ -9,7 +9,7 @@ import { siteConfig } from '@/lib/site';
 
 type Item = {
   Icon: ComponentType<SVGProps<SVGSVGElement>>;
-  labelKey: 'email' | 'github' | 'linkedin' | 'location';
+  labelKey: 'email' | 'github' | 'linkedin' | 'messenger' | 'instagram' | 'location';
   value: string;
   href?: string;
 };
@@ -33,6 +33,26 @@ const ITEMS: Item[] = [
     value: `in/${siteConfig.linkedinHandle}`,
     href: siteConfig.linkedin,
   },
+  ...(siteConfig.messenger
+    ? [
+        {
+          Icon: MessageCircle,
+          labelKey: 'messenger' as const,
+          value: siteConfig.messengerHandle ? `@${siteConfig.messengerHandle}` : 'Messenger',
+          href: siteConfig.messenger,
+        },
+      ]
+    : []),
+  ...(siteConfig.instagram
+    ? [
+        {
+          Icon: Instagram,
+          labelKey: 'instagram' as const,
+          value: siteConfig.instagramHandle ? `@${siteConfig.instagramHandle}` : 'Instagram',
+          href: siteConfig.instagram,
+        },
+      ]
+    : []),
   {
     Icon: MapPin,
     labelKey: 'location',

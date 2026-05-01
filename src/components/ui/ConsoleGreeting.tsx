@@ -39,7 +39,7 @@ export function ConsoleGreeting() {
       `color: ${muted}; font-weight: 700;`, `color: ${accent};`,
     );
     console.log(
-      '%cPsst — masz fajny gust w narzędziach. Jeśli szukasz kogoś do współpracy, wiesz gdzie pisać.',
+      '%cPsst, masz fajny gust w narzędziach. Jeśli szukasz kogoś do współpracy, wiesz gdzie pisać.',
       `color: ${muted}; font-style: italic; font-size: 11px;`,
     );
     /* eslint-enable no-console */

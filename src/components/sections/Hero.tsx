@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 import { Container } from '../ui/Container';
 import { Button } from '../ui/Button';
+import { AvailabilityBadge } from '../ui/AvailabilityBadge';
 import { cn } from '@/lib/cn';
 
 const STATS = ['years', 'projects', 'response'] as const;
@@ -14,13 +15,7 @@ export function Hero() {
     <section id="top" className="relative overflow-hidden">
       <Container className="relative py-24 sm:py-32 lg:py-40">
         <div className="flex max-w-4xl flex-col items-start gap-7">
-          <span className="glass inline-flex items-center gap-2 rounded-full px-3 py-1 font-mono text-xs text-[color:var(--color-fg-muted)]">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[color:var(--color-accent)] opacity-60" />
-              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[color:var(--color-accent)]" />
-            </span>
-            {t('badge')}
-          </span>
+          <AvailabilityBadge />
 
           <h1 className="text-balance text-[2.5rem] font-medium leading-[1.05] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             {t('titleLine1')}{' '}

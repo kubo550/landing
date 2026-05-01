@@ -1,5 +1,6 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { ArrowUpRight, Lock } from 'lucide-react';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
 
 import { Container } from '../ui/Container';
 import { SectionHeading } from '../ui/SectionHeading';
@@ -10,15 +11,13 @@ type Item = {
   description: string;
   tags: string[];
   url: string;
+  image?: string;
   monogram: string;
 };
 
 const GRADIENTS = [
-  // index 0: cool blue/cyan (HVAC vibe)
   'linear-gradient(135deg, #0a84ff 0%, #5ac8fa 60%, #a3e1ff 100%)',
-  // index 1: warm pink/orange (content brand vibe)
   'linear-gradient(135deg, #ff6b9d 0%, #ff8a4a 60%, #ffb86b 100%)',
-  // index 2: violet/indigo (tech app vibe)
   'linear-gradient(135deg, #7c3aed 0%, #6366f1 60%, #38bdf8 100%)',
 ];
 
@@ -44,19 +43,34 @@ export function Portfolio() {
                 >
                   <div
                     className="relative aspect-[16/10] overflow-hidden"
-                    style={{ background: gradient }}
-                    aria-hidden="true"
+                    style={item.image ? undefined : { background: gradient }}
                   >
-                    <div
-                      className="absolute inset-0"
-                      style={{
-                        backgroundImage:
-                          'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.35) 0%, transparent 45%), radial-gradient(circle at 80% 70%, rgba(0,0,0,0.18) 0%, transparent 55%)',
-                      }}
-                    />
-                    <span className="absolute inset-0 flex items-center justify-center font-mono text-7xl font-bold text-white/95 mix-blend-overlay drop-shadow-[0_4px_20px_rgba(0,0,0,0.25)] sm:text-8xl">
-                      {item.monogram}
-                    </span>
+                    {item.image ? (
+                      <Image
+                        src={item.image}
+                        alt={`${item.title}, ${item.domain}`}
+                        fill
+                        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                        className="object-cover transition duration-500 group-hover:scale-[1.03]"
+                      />
+                    ) : (
+                      <>
+                        <div
+                          className="absolute inset-0"
+                          aria-hidden="true"
+                          style={{
+                            backgroundImage:
+                              'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.35) 0%, transparent 45%), radial-gradient(circle at 80% 70%, rgba(0,0,0,0.18) 0%, transparent 55%)',
+                          }}
+                        />
+                        <span
+                          aria-hidden="true"
+                          className="absolute inset-0 flex items-center justify-center font-mono text-7xl font-bold text-white/95 mix-blend-overlay drop-shadow-[0_4px_20px_rgba(0,0,0,0.25)] sm:text-8xl"
+                        >
+                          {item.monogram}
+                        </span>
+                      </>
+                    )}
                     <span className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-white backdrop-blur-md transition group-hover:bg-white/30">
                       <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                     </span>
@@ -97,7 +111,7 @@ export function Portfolio() {
         </ul>
 
         <p className="mt-10 flex items-start gap-2 text-pretty text-sm text-[color:var(--color-fg-subtle)] sm:mt-14">
-          <Lock className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+          <Sparkles className="mt-0.5 h-3.5 w-3.5 shrink-0 text-[color:var(--color-accent)]" aria-hidden="true" />
           <span>{t('ndaNote')}</span>
         </p>
       </Container>
