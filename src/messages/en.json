@@ -34,8 +34,8 @@
     "stats": {
       "yearsValue": "5+",
       "yearsLabel": "years of experience",
-      "projectsValue": "6+",
-      "projectsLabel": "projects delivered",
+      "speedValue": "<1s",
+      "speedLabel": "page load time",
       "responseValue": "<24h",
       "responseLabel": "response time"
     },
@@ -123,10 +123,10 @@
       "price": "349",
       "features": [
         "Responsive mobile-first design",
-        "Contact form",
-        "Basic SEO optimisation and Google Maps integration",
-        "WCAG 2.1 accessibility for people with disabilities",
-        "Hosting (first year included)",
+        "Basic SEO optimisation (meta tags, sitemap, schema.org)",
+        "Lighthouse 95+ and page load under 1 second",
+        "GDPR compliance and privacy policy",
+        "Free fixes for 14 days after launch",
         "Delivery within 48 hours"
       ]
     },
@@ -296,6 +296,18 @@
         "name": "AI quote calculator",
         "description": "Wizard that gathers client needs and generates a quote."
       },
+      "contactForm": {
+        "name": "Contact form",
+        "description": "Form with validation, anti-spam protection and e-mail alerts about new enquiries."
+      },
+      "accessibility": {
+        "name": "WCAG 2.1 (AA) accessibility",
+        "description": "Full WCAG 2.1 AA compliance: audit, ARIA, screen reader testing."
+      },
+      "hosting": {
+        "name": "Hosting (year)",
+        "description": "Fast hosting with SSL certificate and uptime monitoring, first year included."
+      },
       "maintenance": {
         "name": "Yearly maintenance",
         "description": "Hosting, monitoring, backups and minor fixes for 12 months."
@@ -320,12 +332,12 @@
       {
         "number": "03",
         "title": "Delivery",
-        "description": "Once the quote is accepted, work begins. The business landing page is delivered within 48 hours of order confirmation."
+        "description": "Once the quote is accepted, work begins. A business landing page is delivered within 48 hours of confirmation, larger projects typically take 1 to 4 weeks."
       },
       {
         "number": "04",
         "title": "Launch and support",
-        "description": "I publish the project, configure analytics and provide content editing training. Optional ongoing maintenance available."
+        "description": "I publish the project and configure analytics. Content editing training and ongoing maintenance available as optional add-ons."
       }
     ]
   },

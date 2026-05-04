@@ -34,8 +34,8 @@
     "stats": {
       "yearsValue": "5+",
       "yearsLabel": "lat doświadczenia",
-      "projectsValue": "6+",
-      "projectsLabel": "wdrożonych projektów",
+      "speedValue": "<1s",
+      "speedLabel": "czas ładowania strony",
       "responseValue": "<24h",
       "responseLabel": "czas odpowiedzi"
     },
@@ -123,10 +123,10 @@
       "price": "349",
       "features": [
         "Responsywny design w podejściu mobile-first",
-        "Formularz kontaktowy",
-        "Podstawowa optymalizacja SEO oraz integracja z Google Maps",
-        "Dostępność WCAG 2.1 dla osób z niepełnosprawnościami",
-        "Hosting (pierwszy rok w cenie)",
+        "Podstawowa optymalizacja SEO (meta tagi, sitemap, schema.org)",
+        "Lighthouse 95+ i czas ładowania poniżej 1 sekundy",
+        "Zgodność z RODO i polityka prywatności",
+        "Bezpłatne poprawki przez 14 dni po wdrożeniu",
         "Wdrożenie w ciągu 48 godzin"
       ]
     },
@@ -296,6 +296,18 @@
         "name": "Kalkulator wyceny AI",
         "description": "Kreator zbierający potrzeby klienta i generujący wycenę."
       },
+      "contactForm": {
+        "name": "Formularz kontaktowy",
+        "description": "Formularz z walidacją, zabezpieczenie antyspam i alerty mailowe o nowych zapytaniach."
+      },
+      "accessibility": {
+        "name": "Dostępność WCAG 2.1 (AA)",
+        "description": "Pełna zgodność ze standardem WCAG 2.1 AA: audyt, ARIA, testy z czytnikami ekranu."
+      },
+      "hosting": {
+        "name": "Hosting (rok)",
+        "description": "Szybki hosting z certyfikatem SSL i monitoringiem uptime, pierwszy rok w cenie."
+      },
       "maintenance": {
         "name": "Roczne utrzymanie",
         "description": "Hosting, monitoring, backupy i drobne poprawki przez 12 miesięcy."
@@ -320,12 +332,12 @@
       {
         "number": "03",
         "title": "Realizacja",
-        "description": "Po akceptacji wyceny rozpoczynam prace. Strona-wizytówka realizowana w ciągu 48 godzin od potwierdzenia zlecenia."
+        "description": "Po akceptacji wyceny rozpoczynam prace. E-wizytówka gotowa w 48 godzin od potwierdzenia, większe projekty zwykle 1 do 4 tygodni."
       },
       {
         "number": "04",
         "title": "Wdrożenie i wsparcie",
-        "description": "Publikuję projekt, konfiguruję analitykę oraz przeprowadzam szkolenie z edycji treści. Opcjonalnie obejmuję projekt stałą opieką."
+        "description": "Publikuję projekt i konfiguruję analitykę. Opcjonalnie szkolenie z edycji treści lub stała opieka nad projektem."
       }
     ]
   },

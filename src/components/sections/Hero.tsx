@@ -6,7 +6,7 @@ import { Button } from '../ui/Button';
 import { AvailabilityBadge } from '../ui/AvailabilityBadge';
 import { cn } from '@/lib/cn';
 
-const STATS = ['years', 'projects', 'response'] as const;
+const STATS = ['years', 'speed', 'response'] as const;
 
 export function Hero() {
   const t = useTranslations('hero');

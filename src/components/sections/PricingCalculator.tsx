@@ -12,6 +12,8 @@ type PackageId = 'card' | 'landing' | 'multipage' | 'custom';
 type AddonId =
   | 'seo'
   | 'analytics'
+  | 'contactForm'
+  | 'accessibility'
   | 'multilang'
   | 'cms'
   | 'blog'
@@ -23,6 +25,7 @@ type AddonId =
   | 'aiChat'
   | 'aiSearch'
   | 'aiCalc'
+  | 'hosting'
   | 'maintenance';
 
 const PACKAGES: Array<{ id: PackageId; price: number; fromOnly?: boolean }> = [
@@ -35,6 +38,8 @@ const PACKAGES: Array<{ id: PackageId; price: number; fromOnly?: boolean }> = [
 const ADDONS: Array<{ id: AddonId; price: number; perYear?: boolean; ai?: boolean }> = [
   { id: 'seo', price: 349 },
   { id: 'analytics', price: 249 },
+  { id: 'contactForm', price: 149 },
+  { id: 'accessibility', price: 299 },
   { id: 'multilang', price: 399 },
   { id: 'cms', price: 899 },
   { id: 'blog', price: 599 },
@@ -46,6 +51,7 @@ const ADDONS: Array<{ id: AddonId; price: number; perYear?: boolean; ai?: boolea
   { id: 'aiChat', price: 1499, ai: true },
   { id: 'aiSearch', price: 2499, ai: true },
   { id: 'aiCalc', price: 1999, ai: true },
+  { id: 'hosting', price: 199, perYear: true },
   { id: 'maintenance', price: 899, perYear: true },
 ];
 
