@@ -374,11 +374,11 @@
       },
       {
         "q": "Are hosting and domain included in the price?",
-        "a": "The Business landing page package includes the first year of hosting. The domain is not included; its cost is typically PLN 50 to 150 per year, depending on the chosen extension. Deployment to client-owned hosting is also possible."
+        "a": "Hosting and domain are not included in the base price. Hosting is available as an add-on (from PLN 199 per year), and the domain can be purchased separately (typically PLN 50 to 150 per year, depending on the extension). Deployment to client-owned hosting is also possible."
       },
       {
         "q": "Can I edit the content myself after launch?",
-        "a": "Yes. Training on editing the key sections of the website is included as standard. Implementation of a CMS panel (for example for blog management) is delivered as part of a custom quote."
+        "a": "Yes. Training on editing the key sections of the website is available as an add-on after launch. Implementation of a CMS panel (for example for blog management) is delivered as part of a custom quote."
       },
       {
         "q": "Do you also handle SEO optimisation?",
@@ -390,7 +390,7 @@
       },
       {
         "q": "Will the website be accessible to people with disabilities?",
-        "a": "Yes. Every project I build follows WCAG 2.1 at the AA level. That means: proper contrast, readable fonts, semantic HTML, full keyboard navigation, alt text for images, labels for form fields and compatibility with screen readers (NVDA, VoiceOver). The site works for everyone, regardless of visual, auditory or motor limitations. For more demanding deployments (e.g. public sector) I deliver a full WCAG audit and compliance with the digital accessibility act."
+        "a": "Every project follows accessibility best practices: semantic HTML, proper contrast, readable fonts, keyboard navigation and alt text for images. Full WCAG 2.1 AA compliance (audit, ARIA, screen reader testing with NVDA and VoiceOver, form field labels) is available as an add-on. For public sector deployments I deliver a full WCAG audit and compliance with the digital accessibility act."
       }
     ]
   },

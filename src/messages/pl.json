@@ -374,11 +374,11 @@
       },
       {
         "q": "Czy hosting i domena są wliczone w cenę?",
-        "a": "W pakiecie E-wizytówka pierwszy rok hostingu w cenie. Domena nie jest wliczona, jej koszt to zwykle 50 do 150 zł rocznie, zależnie od wybranego rozszerzenia. Istnieje również możliwość wdrożenia projektu na hostingu klienta."
+        "a": "Hosting i domena nie są wliczone w cenę bazową. Hosting oferuję jako dodatek (od 199 zł rocznie), domenę można wykupić samodzielnie (zwykle 50 do 150 zł rocznie, zależnie od rozszerzenia). Istnieje również możliwość wdrożenia projektu na hostingu klienta."
       },
       {
         "q": "Czy mogę samodzielnie edytować treści po wdrożeniu?",
-        "a": "Tak. Standardowo przeprowadzam szkolenie z edycji kluczowych sekcji strony. Wdrożenie panelu CMS (na przykład do prowadzenia bloga) realizowane jest w ramach wyceny indywidualnej."
+        "a": "Tak. Szkolenie z edycji kluczowych sekcji strony dostępne jest jako dodatek po wdrożeniu. Wdrożenie panelu CMS (na przykład do prowadzenia bloga) realizowane jest w ramach wyceny indywidualnej."
       },
       {
         "q": "Czy zajmujesz się również optymalizacją SEO?",
@@ -390,7 +390,7 @@
       },
       {
         "q": "Czy strona będzie dostępna dla osób z niepełnosprawnościami?",
-        "a": "Tak. Każdy projekt buduję zgodnie ze standardem WCAG 2.1 na poziomie AA. Oznacza to: odpowiednie kontrasty, czytelne fonty, semantyczny HTML, pełna obsługa klawiatury, opisy alt dla obrazów, etykiety dla pól formularzy oraz zgodność z czytnikami ekranu (NVDA, VoiceOver). Strona działa dla wszystkich, niezależnie od ograniczeń wzroku, słuchu czy motoryki. Dla bardziej wymagających wdrożeń (np. dla podmiotów publicznych) realizuję pełny audyt WCAG i zgodność z ustawą o dostępności cyfrowej."
+        "a": "Każdy projekt buduję z uwzględnieniem dobrych praktyk dostępności: semantyczny HTML, odpowiednie kontrasty, czytelne fonty, obsługa klawiatury i opisy alt obrazów. Pełna zgodność ze standardem WCAG 2.1 na poziomie AA (audyt, ARIA, testy z czytnikami ekranu NVDA i VoiceOver, etykiety pól formularzy) dostępna jest jako dodatek. Dla podmiotów publicznych realizuję pełny audyt WCAG i zgodność z ustawą o dostępności cyfrowej."
       }
     ]
   },
