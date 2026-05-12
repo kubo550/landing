@@ -106,6 +106,27 @@ Po odpowiedziach przedstaw mi:
 - **Czas realizacji** (e-wizytówka 48h, strona firmowa 1-4 tyg)
 - **Co dostarczam ja, co dostarcza klient** (treści, zdjęcia, dostępy do hostingu/domeny/GA, logo)
 
+### Wycena - ile mam zgarnąć
+
+Oszacuj **ile realnie mogę policzyć klientowi za ten projekt** (kwota netto w PLN). Nie tylko cennik bazowy z tabelki, tylko realistyczny przedział rynkowy oparty o:
+
+- Skalę i branżę klienta (jednoosobowa działalność vs firma z magazynem i 20 pracownikami vs marka premium - inny próg bólu cenowego).
+- Lokalizacja i poziom konkurencji w branży (Warszawa/Trójmiasto vs mniejsze miasto).
+- Złożoność zakresu (liczba sekcji, podstron, języków, integracji, B2B, AI, kalkulatory, sklep).
+- Czas mojej pracy (estymacja w godzinach × stawka 150-250 zł/h jako sanity check).
+- Czy klient ma deadline (targi, kampania, dotacja) - wtedy idę górą widełek.
+- Czy projekt ma potencjał na utrzymanie/abonament (wtedy mogę zejść z jednorazówki, żeby zahaczyć kontrakt).
+
+Podaj mi w formacie:
+
+- **Sugerowana cena dla klienta:** `X - Y zł netto` (np. `2 800 - 4 200 zł netto`)
+- **Twoja rekomendacja punktowa:** `Z zł netto` (jedna kwota, którą byś wstawił w ofercie jako pierwsza)
+- **Uzasadnienie w 2-3 zdaniach:** dlaczego ten przedział, co go uzasadnia (zakres, branża, pilność, ROI dla klienta).
+- **Opcjonalnie:** abonament/utrzymanie miesięczne jeśli ma sens (np. `200-400 zł/mc` za hosting + drobne update'y + monitoring).
+- **Czerwone flagi:** jeśli klient sygnalizował niski budżet albo zakres jest pożerający, powiedz mi wprost ("ryzyko wejścia poniżej kosztów, rozważ wycięcie X albo zaproponuj mniejszy pakiet").
+
+Nie zaniżaj. Lepiej dać górną widełkę i mieć pole do zejścia w negocjacji niż zacząć od ceny, której nie da się podnieść.
+
 Czekaj na moje "ok, lecimy" zanim zaczniesz scaffoldować.
 
 ## Krok 4: Scaffold i implementacja
