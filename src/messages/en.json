@@ -15,9 +15,27 @@
     "about": "About",
     "faq": "FAQ",
     "contact": "Contact",
+    "blog": "Blog",
     "cta": "Get a free quote",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Notes from the field",
+    "subtitle": "Case studies, problems, fixes. Short posts about what really happens to client websites.",
+    "readingSuffix": "min read",
+    "readMore": "Read post",
+    "backToList": "Back to the blog",
+    "relatedTitle": "More posts",
+    "ctaTitle": "Is your site behaving strangely? Get in touch.",
+    "ctaSubtitle": "Audit, fix, migration, free quote. I reply within 24 hours.",
+    "ctaButton": "Go to the contact form",
+    "empty": "First posts are on the way. Check back soon.",
+    "notFoundTitle": "Post not found",
+    "notFoundBody": "The post you are looking for does not exist or has been removed.",
+    "metaListTitle": "Blog: case studies and notes on building websites",
+    "metaListDescription": "Case studies from real client work: security, performance, WordPress migrations, SEO. Short posts, straight to the point."
   },
   "hero": {
     "badge": "Currently accepting projects",

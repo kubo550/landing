@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Menu, X } from 'lucide-react';
 
 import { Container } from '../ui/Container';
@@ -12,8 +12,9 @@ import { cn } from '@/lib/cn';
 
 const NAV_ITEMS = ['services', 'portfolio', 'calculator', 'process', 'about', 'faq', 'contact'] as const;
 
-export function Navbar() {
+export function Navbar({ variant = 'home' }: { variant?: 'home' | 'subpage' }) {
   const t = useTranslations('nav');
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -23,6 +24,12 @@ export function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const homeHref = locale === 'pl' ? '/' : `/${locale}`;
+  const blogHref = locale === 'pl' ? '/blog' : `/${locale}/blog`;
+  const anchor = (key: string) => (variant === 'home' ? `#${key}` : `${homeHref}#${key}`);
+  const ctaHref = anchor('contact');
+  const logoHref = variant === 'home' ? '#top' : homeHref;
 
   return (
     <header
@@ -35,7 +42,7 @@ export function Navbar() {
       <Container>
         <nav className="flex h-16 items-center justify-between gap-4" aria-label="Primary">
           <a
-            href="#top"
+            href={logoHref}
             className="font-mono text-sm font-bold tracking-tight text-[color:var(--color-fg)]"
           >
             <span className="text-[color:var(--color-accent)]">jk</span>
@@ -46,13 +53,26 @@ export function Navbar() {
             {NAV_ITEMS.map((key) => (
               <li key={key}>
                 <a
-                  href={`#${key}`}
+                  href={anchor(key)}
                   className="rounded-md px-3 py-1.5 text-sm text-[color:var(--color-fg-muted)] transition hover:text-[color:var(--color-fg)]"
                 >
                   {t(key)}
                 </a>
               </li>
             ))}
+            <li>
+              <a
+                href={blogHref}
+                className={cn(
+                  'rounded-md px-3 py-1.5 text-sm transition hover:text-[color:var(--color-fg)]',
+                  variant === 'subpage'
+                    ? 'text-[color:var(--color-fg)]'
+                    : 'text-[color:var(--color-fg-muted)]',
+                )}
+              >
+                {t('blog')}
+              </a>
+            </li>
           </ul>
 
           <div className="flex items-center gap-2">
@@ -60,7 +80,7 @@ export function Navbar() {
               <LangSwitcher />
             </div>
             <ThemeToggle />
-            <Button href="#contact" className="hidden sm:inline-flex">
+            <Button href={ctaHref} className="hidden sm:inline-flex">
               {t('cta')}
             </Button>
             <button
@@ -81,7 +101,7 @@ export function Navbar() {
               {NAV_ITEMS.map((key) => (
                 <li key={key}>
                   <a
-                    href={`#${key}`}
+                    href={anchor(key)}
                     onClick={() => setOpen(false)}
                     className="block rounded-md px-3 py-2.5 text-base text-[color:var(--color-fg-muted)] transition hover:bg-[color:var(--color-surface-2)] hover:text-[color:var(--color-fg)]"
                   >
@@ -89,10 +109,19 @@ export function Navbar() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href={blogHref}
+                  onClick={() => setOpen(false)}
+                  className="block rounded-md px-3 py-2.5 text-base text-[color:var(--color-fg-muted)] transition hover:bg-[color:var(--color-surface-2)] hover:text-[color:var(--color-fg)]"
+                >
+                  {t('blog')}
+                </a>
+              </li>
               <li className="flex items-center justify-between gap-3 pt-2">
                 <LangSwitcher />
                 <Button
-                  href="#contact"
+                  href={ctaHref}
                   onClick={() => setOpen(false)}
                   className="flex-1 justify-center"
                 >

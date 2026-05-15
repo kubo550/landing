@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Github, Instagram, Linkedin, Mail, MessageCircle } from 'lucide-react';
 
 import { Container } from '../ui/Container';
@@ -6,11 +6,16 @@ import { siteConfig } from '@/lib/site';
 
 const NAV_KEYS = ['services', 'portfolio', 'process', 'about', 'faq', 'contact'] as const;
 
-export function Footer() {
+export function Footer({ variant = 'home' }: { variant?: 'home' | 'subpage' }) {
   const tNav = useTranslations('nav');
   const tFooter = useTranslations('footer');
   const tContact = useTranslations('contact.info');
+  const locale = useLocale();
   const year = new Date().getFullYear();
+
+  const homePrefix = variant === 'home' ? '' : locale === 'pl' ? '/' : `/${locale}`;
+  const blogHref = locale === 'pl' ? '/blog' : `/${locale}/blog`;
+  const anchor = (key: string) => `${homePrefix}#${key}`;
 
   return (
     <footer className="border-t border-[color:var(--color-border)] py-14">
@@ -18,7 +23,7 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-12">
           <div className="flex flex-col gap-3 lg:col-span-5">
             <a
-              href="#top"
+              href={variant === 'home' ? '#top' : homePrefix || '/'}
               className="inline-flex items-center font-mono text-base font-bold tracking-tight"
             >
               <span className="text-[color:var(--color-accent)]">jk</span>
@@ -37,13 +42,21 @@ export function Footer() {
               {NAV_KEYS.map((key) => (
                 <li key={key}>
                   <a
-                    href={`#${key}`}
+                    href={anchor(key)}
                     className="text-[color:var(--color-fg-muted)] transition hover:text-[color:var(--color-fg)]"
                   >
                     {tNav(key)}
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href={blogHref}
+                  className="text-[color:var(--color-fg-muted)] transition hover:text-[color:var(--color-fg)]"
+                >
+                  {tNav('blog')}
+                </a>
+              </li>
             </ul>
           </nav>
 

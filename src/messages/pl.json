@@ -15,9 +15,27 @@
     "about": "O mnie",
     "faq": "FAQ",
     "contact": "Kontakt",
+    "blog": "Blog",
     "cta": "Bezpłatna wycena",
     "openMenu": "Otwórz menu",
     "closeMenu": "Zamknij menu"
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Notatki z frontu",
+    "subtitle": "Case studies, problemy, rozwiązania. Krótkie wpisy o tym, co naprawdę dzieje się ze stronami klientów.",
+    "readingSuffix": "min czytania",
+    "readMore": "Czytaj wpis",
+    "backToList": "Wróć do bloga",
+    "relatedTitle": "Więcej wpisów",
+    "ctaTitle": "Twoja strona zachowuje się dziwnie? Napisz.",
+    "ctaSubtitle": "Audyt, naprawa, migracja, wycena bezpłatna. Odpowiadam w ciągu 24 godzin.",
+    "ctaButton": "Przejdź do formularza kontaktowego",
+    "empty": "Pierwsze wpisy w przygotowaniu. Wracaj wkrótce.",
+    "notFoundTitle": "Nie znaleziono wpisu",
+    "notFoundBody": "Wpis, którego szukasz, nie istnieje albo został usunięty.",
+    "metaListTitle": "Blog: case studies i notatki o stronach internetowych",
+    "metaListDescription": "Case studies z pracy nad stronami klientów: bezpieczeństwo, wydajność, migracje WordPress, SEO. Krótkie wpisy z konkretami."
   },
   "hero": {
     "badge": "Aktualnie przyjmuję zlecenia",
